@@ -15,7 +15,7 @@ export const MyWrapper = styled.div`
   ${media.tabletPortrait} {
     transform: none;
     bottom: 560px;
-    left: 370px;
+    left: 400px;
   }
 `;
 export const HeadWrapper = styled.div`
@@ -34,8 +34,8 @@ background-color:#6beb3854;
 border-radius: 6px;
 padding:15px;
 margin:10px;
-width:230px;
-height:50px;
+width:180px;
+height:55px;
 text-align: center;
 backdrop-filter: blur(2px);
 display: inline-block;
@@ -51,7 +51,7 @@ export const MyLink = styled.span`
 
 export const AuthorLink = styled.span`
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
   margin-right: 5px;
 `;
